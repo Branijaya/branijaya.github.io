@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Branijaya print</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+ />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!--Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--My Style-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">branijaya<span>print</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#product">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Konten Utama -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Selamat Datang <br> di Layanan <span>kami</span></h1>
+        <p>
+          Kami menawarkan solusi terbaik untuk kebutuhan Anda. <br> Pesan sekarang
+          dan nikmati layanan berkualitas tinggi!
+        </p>
+        <a href="#product" class="btn">Pesan Sekarang</a>
+      </div>
+    </section>
+
+    <!-- Section menu product -->
+    <section id="product" class="product-section">
+      <h2>Menu <span>Product</h2>
+      <p class="product-description">
+        Temukan berbagai pilihan produk terbaik kami dengan harga menarik.
+      </p>
+      <!-- Tombol Navigasi Kiri -->
+      <button class="scroll-btn left" onclick="scrollLeft()">❮</button>
+
+      <!-- Container Produk -->
+      <div class="product-container">
+        <div class="product-card">
+          <h3>Kalender</3>
+          <img src="product1.jpg" alt="Produk 1" />
+          <p>
+            Deskripsi singkat untuk produk 1. Solusi terbaik untuk kebutuhan
+            Anda.
+          </p>
+          <p class="price">
+            <span class="original-price">Rp 200.000</span><br />
+            <span class="discounted-price">Rp 150.000</span>
+          </p>
+          <a href="#contact" class="btn">Pesan Sekarang</a>
+        </div>
+        <div class="product-card">
+          <h3>Kalender</3>
+          <img src="product1.jpg" alt="Produk 1" />
+          <p>
+            Deskripsi singkat untuk produk 1. Solusi terbaik untuk kebutuhan
+            Anda.
+          </p>
+          <p class="price">
+            <span class="original-price">Rp 200.000</span><br />
+            <span class="discounted-price">Rp 150.000</span>
+          </p>
+          <a href="#contact" class="btn">Pesan Sekarang</a>
+        </div>
+        <div class="product-card">
+          <h3>Product 2</h3>
+          <p class="price">
+            <span class="original-price">Rp 300.000</span><br />
+            <span class="discounted-price">Rp 250.000</span>
+          </p>
+        </div>
+        <div class="product-card">
+          <h3>Product 3</h3>
+          <p class="price">
+            <span class="original-price">Rp 400.000</span><br />
+            <span class="discounted-price">Rp 350.000</span>
+          </p>
+        </div>
+        <div class="product-card">
+          <h3>Product 4</h3>
+          <p class="price">
+            <span class="original-price">Rp 250.000</span><br />
+            <span class="discounted-price">Rp 200.000</span>
+          </p>
+        </div>
+        <div class="product-card">
+          <h3>Product 5</h3>
+          <p class="price">
+            <span class="original-price">Rp 350.000</span><br />
+            <span class="discounted-price">Rp 300.000</span>
+          </p>
+        </div>
+      </div>
+      <!-- Tombol Navigasi Kanan -->
+      <button class="scroll-btn right" onclick="scrollRight()">❯</button>
+    </section>
+
+    <!-- Tentang kami section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-text">
+          <h2>Tentang Kami</h2>
+          <p>
+            Di perusahaan kami, kami berkomitmen untuk memberikan solusi terbaik
+            untuk setiap tantangan yang Anda hadapi. Kami memiliki tim yang
+            berpengalaman dan bersemangat dalam menciptakan hasil yang luar
+            biasa untuk setiap klien.
+          </p>
+          <p>
+            Kami terus berkembang dan berinovasi untuk memenuhi kebutuhan pasar
+            yang selalu berubah. Dengan pengalaman bertahun-tahun, kami yakin
+            dapat memberikan nilai tambah yang signifikan.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="about-image.png" alt="Tentang Kami" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Hubungi <span>Kami</span></h2>
+      <p>
+        Silakan isi formulir di bawah ini untuk menghubungi kami atau temukan
+        lokasi kami di peta.
+      </p>
+
+      <div class="contact-container">
+        <!-- Formulir Kontak -->
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Masukkan nama Anda"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Masukkan email Anda"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tulis pesan Anda"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Kirim Pesan</button>
+        </form>
+
+        <!-- Google Maps -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.932084678407!2d106.82274411558403!3d-6.181863495529889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e357fe35c3%3A0xe5c7a8d7b307de4c!2sMonas%20-%20National%20Monument!5e0!3m2!1sen!2sid!4v1617529041234!5m2!1sen!2sid"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascrib -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Tentang Kami</h3>
+      <p>
+        Kami adalah perusahaan yang berfokus pada memberikan produk terbaik
+        untuk pelanggan kami. Hubungi kami untuk informasi lebih lanjut.
+      </p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Menu Cepat</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang Kami</a></li>
+        <li><a href="#product">Produk</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Ikuti Kami</h3>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank">
+          <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <i class="fab fa-twitter"></i> Twitter
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Branijaya print. Semua Hak Dilindungi.</p>
+  </div>
+</footer>
+
+<button id="scrollToTop" class="scroll-top" onclick="scrollToHome()">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<script>
+  function scrollToHome() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
+  window.addEventListener("scroll", () => {
+    const scrollToTopButton = document.getElementById("scrollToTop");
+    if (window.scrollY <= 50) {
+      scrollToTopButton.style.display = "none";
+    } else {
+      scrollToTopButton.style.display = "block";
+    }
+  });
+</script>
+</body>
+</html>
+
